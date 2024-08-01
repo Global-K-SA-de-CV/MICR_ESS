@@ -1,10 +1,8 @@
-# Nombre del laboratorio 
+# Práctica 2.1. Diseño de Microservicios 
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
-- Objetivo1
-- Objetivo2
-- Objetivo3
+- Identificar y separar componentes y servicios dentro de un sistema monolítico para convertirlos en microservicios independientes.
 
 ## Objetivo Visual 
 Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen. 
@@ -12,7 +10,7 @@ Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es 
 ![diagrama1](../images/img1.png)
 
 ## Duración aproximada:
-- xx minutos.
+- 90 minutos.
 
 ## Tabla de ayuda:
 Agregar una tabla con la información que pueda requerir el participante durante el laboratorio, como versión de software, IPs de servers, usuarios y credenciales de acceso.
