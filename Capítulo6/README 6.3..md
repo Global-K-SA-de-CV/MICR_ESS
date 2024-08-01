@@ -1,10 +1,8 @@
-# Nombre del laboratorio 
+# Practica 6.3. Configuración de la Persistencia 
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
-- Objetivo1
-- Objetivo2
-- Objetivo3
+- Configurar las propiedades necesarias en el archivo de propiedades, para establecer la conexión con una base de datos relacional.
 
 ## Objetivo Visual 
 Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen. 
@@ -12,7 +10,7 @@ Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es 
 ![diagrama1](../images/img1.png)
 
 ## Duración aproximada:
-- xx minutos.
+- 30 minutos.
 
 ## Tabla de ayuda:
 Agregar una tabla con la información que pueda requerir el participante durante el laboratorio, como versión de software, IPs de servers, usuarios y credenciales de acceso.
