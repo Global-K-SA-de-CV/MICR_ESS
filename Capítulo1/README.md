@@ -1,10 +1,8 @@
-# Nombre del laboratorio 
+# Práctica 1.1. Revisión de un ejemplo de Arquitectura de un Sistema Monolítico 
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
-- Objetivo1
-- Objetivo2
-- Objetivo3
+- Analizar y comprender en detalle la estructura y funcionamiento de una arquitectura monolítica mediante el estudio de un ejemplo
 
 ## Objetivo Visual 
 Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen. 
@@ -12,7 +10,7 @@ Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es 
 ![diagrama1](../images/img1.png)
 
 ## Duración aproximada:
-- xx minutos.
+- 30 minutos.
 
 ## Tabla de ayuda:
 Agregar una tabla con la información que pueda requerir el participante durante el laboratorio, como versión de software, IPs de servers, usuarios y credenciales de acceso.
