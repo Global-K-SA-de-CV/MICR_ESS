@@ -1,8 +1,8 @@
-# Práctica 3.3. Implementación de Endpoints REST en Spring Boot 
+# Práctica 3.1. Configuración del Entorno para Spring Boot 
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
-- Implementar endpoints RESTful utilizando Spring Boot, permitiendo la lectura de recursos mediante servicios web.
+- Configurar el entorno de desarrollo necesario para trabajar con Spring Boot, Spring Tool Suite (STS).
 
 ## Objetivo Visual 
 Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen. 
