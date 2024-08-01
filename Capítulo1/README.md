@@ -2,7 +2,7 @@
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
-- Analizar y comprender en detalle la estructura y funcionamiento de una arquitectura monolítica mediante el estudio de un ejemplo
+- Analizar y comprender en detalle la estructura y funcionamiento de una arquitectura monolítica mediante el estudio de un ejemplo.
 
 ## Objetivo Visual 
 Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen. 
