@@ -19,20 +19,28 @@ Agregar una tabla con la información que pueda requerir el participante durante
 | Netec2024 | edgardo@netec.com | 123abc |
 
 ## Instrucciones 
-<!-- Proporciona pasos detallados sobre cómo configurar y administrar sistemas, implementar soluciones de software, realizar pruebas de seguridad, o cualquier otro escenario práctico relevante para el campo de la tecnología de la información -->
-### Tarea 1. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
+### Tarea 1. Veriricación de acceso a la base de datos MySQL
+Paso 1. Varificar que puede tener acceso a la base de datos MySQL
 
-Paso 2. <!-- Añadir instrucción -->
+```cmd
+mysql -uroot -pNetec_2357 -hlocalhost
+```
 
-Paso 3. <!-- Añadir instrucción -->
+Paso 2. Verificar las bases de datos creadas
 
-### Tarea 2. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
+```sql
+show databases
+```
 
-Paso 2. <!-- Añadir instrucción -->
+Paso 2. Agrega las siguientes líneas para configurarar el acceso a la base de datos
 
-Paso 3. <!-- Añadir instrucción -->
+```properties
+# Lineas para MySQL
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=jdbc:mysql://<ip_address>:3306/micro_articulo_bd
+spring.datasource.username=root
+spring.datasource.password=Netec_2357
+```
 
 ### Resultado esperado
 En esta sección se debe mostrar el resultado esperado de nuestro laboratorio

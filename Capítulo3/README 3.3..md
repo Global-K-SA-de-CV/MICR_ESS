@@ -4,36 +4,49 @@
 Al finalizar la práctica, serás capaz de:
 - Implementar endpoints RESTful utilizando Spring Boot, permitiendo la lectura de recursos mediante servicios web.
 
-## Objetivo Visual 
-Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen. 
-
-![diagrama1](../images/img1.png)
-
 ## Duración aproximada:
 - 45 minutos.
 
-## Tabla de ayuda:
-Agregar una tabla con la información que pueda requerir el participante durante el laboratorio, como versión de software, IPs de servers, usuarios y credenciales de acceso.
-| Contraseña | Correo | Código |
-| --- | --- | ---|
-| Netec2024 | edgardo@netec.com | 123abc |
+## Endpoints
+
+| Método | URI/Endpoints                      |
+|--------|------------------------------------|
+| GET    | http://localhost:9999/productos    |
+| GET    | http://localhost:9999/producto/1   |
+
 
 ## Instrucciones 
-<!-- Proporciona pasos detallados sobre cómo configurar y administrar sistemas, implementar soluciones de software, realizar pruebas de seguridad, o cualquier otro escenario práctico relevante para el campo de la tecnología de la información -->
-### Tarea 1. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
 
-Paso 2. <!-- Añadir instrucción -->
+### Tarea 1. Crea un controlador REST
+Paso 1. Utiliza las anotaciones REStController, @GetMapping y @PathVariable para definri los endpoints que consumen el servicio implementado.
 
-Paso 3. <!-- Añadir instrucción -->
+```java
+package com.netec.practica32.controller;
 
-### Tarea 2. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
+import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
 
-Paso 2. <!-- Añadir instrucción -->
+import com.netec.practica32.entities.Producto;
+import com.netec.practica32.service.IProductoService;
 
-Paso 3. <!-- Añadir instrucción -->
+@RestController
+public class ProductoController {
 
-### Resultado esperado
-En esta sección se debe mostrar el resultado esperado de nuestro laboratorio
-![imagen resultado](../images/img3.png)
+    @Autowired
+    private IProductoService servicio;
+
+    @GetMapping("/producto")
+    public List<Producto> findAll() {
+        return servicio.findAll();
+    }
+
+    @GetMapping("/producto/{id}")
+    public Producto findById(@PathVariable("id") int id) {
+        return servicio.findById(id);
+    }
+}
+
+```

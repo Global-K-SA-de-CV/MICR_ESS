@@ -19,20 +19,23 @@ Agregar una tabla con la información que pueda requerir el participante durante
 | Netec2024 | edgardo@netec.com | 123abc |
 
 ## Instrucciones 
-<!-- Proporciona pasos detallados sobre cómo configurar y administrar sistemas, implementar soluciones de software, realizar pruebas de seguridad, o cualquier otro escenario práctico relevante para el campo de la tecnología de la información -->
-### Tarea 1. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
 
-Paso 2. <!-- Añadir instrucción -->
+### Tarea 1. Identificación de entidades para los microservicios: micro-articulo & micro-carritof
+Paso 1. Identificar las entidades clave para los microservicios hasta este momento creados.
 
-Paso 3. <!-- Añadir instrucción -->
+Paso 2. Varificar que puede tener acceso a la base de datos MySQL
 
-### Tarea 2. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
+```cmd
+mysql -uroot -pNetec_2357 -hlocalhost
+```
 
-Paso 2. <!-- Añadir instrucción -->
+Paso 3. Crear una base de datos para micro-articulo
 
-Paso 3. <!-- Añadir instrucción -->
+```sql
+show databases;
+create database micro_articulo_bd;
+create database micro_carrito_bd;
+```
 
 ### Resultado esperado
 En esta sección se debe mostrar el resultado esperado de nuestro laboratorio

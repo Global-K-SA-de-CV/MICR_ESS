@@ -19,20 +19,54 @@ Agregar una tabla con la información que pueda requerir el participante durante
 | Netec2024 | edgardo@netec.com | 123abc |
 
 ## Instrucciones 
-<!-- Proporciona pasos detallados sobre cómo configurar y administrar sistemas, implementar soluciones de software, realizar pruebas de seguridad, o cualquier otro escenario práctico relevante para el campo de la tecnología de la información -->
-### Tarea 1. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
 
-Paso 2. <!-- Añadir instrucción -->
+### Tarea 1. Levantar el microservicio: micro-articulo
+Paso 1. Iniciar el microservicio
 
-Paso 3. <!-- Añadir instrucción -->
+* Asegúrate de que el microservicio micro-articulo esté configurado correctamente y ejecútalo en tu entorno de desarrollo.
 
-### Tarea 2. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
+Paso 2. Verificar la existencia de las tablas en MySQL
 
-Paso 2. <!-- Añadir instrucción -->
+* Abre una terminal y conecta a la base de datos MySQL
 
-Paso 3. <!-- Añadir instrucción -->
+```cmd
+mysql -hlocalhost -uroot -pabcd_2357
+```
+
+* Selecciona la base de datos micro_articulo_bd:
+   
+```sql
+use micro_articulo_bd;
+```
+* Muestra las tablas para verificar que la tabla artículos existe:
+
+```sql
+show tables;
+```
+* Consulta los datos en la tabla articulos:
+
+```sql
+select * from artículos;
+```
+
+Paso 3. Abre Postman y realiza una solicitud POST al endpoint /api/articulos
+* Repite el proceso para agregar varios artículos.
+
+Paso 4. Verificar los artículos en la base de datos.
+
+*En la terminal de MySQL, consulta nuevamente la tabla articulos para verificar que los nuevos artículos se hayan ingresado correctamente.
+
+```sql
+select * from artículos;
+```
+
+
+### Tarea 2. Levantar el microservicio: micro-carritof
+Paso 1. Iniciar el microservicio
+
+Paso 2. Agregar varios articulos al carrito usando Postman/Insomia
+
+Paso 3. Verifica la descripción de los articulos en el carrito.
 
 ### Resultado esperado
 En esta sección se debe mostrar el resultado esperado de nuestro laboratorio
