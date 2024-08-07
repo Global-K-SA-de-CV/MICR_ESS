@@ -7,24 +7,26 @@ Al finalizar la práctica, serás capaz de:
 ## Duración aproximada:
 - 30 minutos.
 
-## Tabla de ayuda:
-Agregar una tabla con la información que pueda requerir el participante durante el laboratorio, como versión de software, IPs de servers, usuarios y credenciales de acceso.
-| Contraseña | Correo | Código |
-| --- | --- | ---|
-| Netec2024 | edgardo@netec.com | 123abc |
 
 ## Instrucciones 
 
 ### Tarea 1. Crear un nuevo proyecto Spring Boot, usando Java 21, Maven y empaquetamiento JAR
-Paso 1. Inicia STS
-Paso 2. Selecciona un espacio de trabajo para tu nuevo proyecto
-Paso 3. Usa Spring Boot, con Java 21, Maven y empaquetamiento JAR
+
+**Paso 1.** Inicia STS
+
+**Paso 2.** Selecciona un espacio de trabajo para tu nuevo proyecto
+
+**Paso 3.** Usa Spring Boot, con Java 21, Maven y empaquetamiento JAR
+
 
 ### Tarea 2. Agrega los inicializadores
-Paso 1. Spring Web & Spring Boot Dev Tools
+
+**Paso 1.** Spring Web & Spring Boot Dev Tools
 
 ### Tarea 3. Cree y codifique lo siguiente
-Paso 1. Crea la entidad Producto
+
+**Paso 1.** Crea la entidad Producto
+
 ```java
 public class Producto {
 
@@ -49,7 +51,7 @@ public class Producto {
 
 ```
 
-Paso 2. Crea la interface IProductoServicio
+**Paso 2.** Crea la interface IProductoServicio
 
 ```java
 package com.netec.practica32.service;
@@ -63,7 +65,7 @@ public abstract interface IProductoService {
 
 ```
 
-Paso 3. Crea la clase ProductoServicio que implemente la interface del punto anteior.
+**Paso 3.** Crea la clase ProductoServicio que implemente la interface del punto anterior.
 
 ```java
 package com.netec.practica32.service;

@@ -4,11 +4,6 @@
 Al finalizar la práctica, serás capaz de:
 - Crear y configurar un segundo microservicio que se comunique de manera eficiente con el microservicio de artículos.
 
-## Objetivo Visual 
-Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen. 
-
-![diagrama1](../images/img1.png)
-
 ## Duración aproximada:
 - 35 minutos.
 
@@ -24,7 +19,8 @@ Los endpoints podrías ser los siguientes:
 ## Instrucciones 
 
 ### Tarea 1. Creación un nuevo proyecto Spring Boot
-Paso 1. Crear un nuevo proyecto de tipo Spring Boot, 
+
+**Paso 1.** Crear un nuevo proyecto de tipo Spring Boot, 
 * **Name**: micro-carritort
 * **Type**: Maven
 * **Packaging**: Jar
@@ -35,14 +31,19 @@ Paso 1. Crear un nuevo proyecto de tipo Spring Boot,
 * **Description**: Implementación del microservicio micro-carritort
 * **package**: com.netec.micro_carritort
 
-Paso 2. Agrega los inicializadores:
+
+**Paso 2.** Agrega los inicializadores:
+
 * Spring Web
 * Spring Boot Dev Tools
 
 ### Tarea 2. Configurar el microservicio de nombre micro-carritort en el puerto 9092
-Paso 1. Expande la estructua del proyecto y localiza la carpeta **src/main/resources**
-Paso 2. Dentro de esta carpeta, abre el archivo **application.properties**.
-Paso 3. Agrega la siguiente línea para configurarar el puerto del microservicio a 9092
+
+**Paso 1.** Expande la estructua del proyecto y localiza la carpeta **src/main/resources**
+
+**Paso 2.** Dentro de esta carpeta, abre el archivo **application.properties**.
+
+**Paso 3.** Agrega la siguiente línea para configurarar el puerto del microservicio a 9092
 
 ```properties
 server.port=9092
@@ -58,5 +59,7 @@ server.port=9092
 
 ### Tarea 7. Probar el microservicio
 
-En esta sección se debe mostrar el resultado esperado de nuestro laboratorio
-![imagen resultado](../images/img3.png)
+| Método HTTP | Ruta     | Cuerpo |
+|-------------|----------|--------|
+| POST        | /carrito |  JSON  |
+| GET         | /carrito |   N/A  |

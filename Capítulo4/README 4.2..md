@@ -10,8 +10,9 @@ Al finalizar la práctica, serás capaz de:
 ## Instrucciones 
 
 ### Tarea 1. Configurar el microservicio
-Paso 1. Abre el archivo **application.properties** ubicado en src/main/resources.
-Paso 2. Añade las siguientes propiedades
+**Paso 1.** Abre el archivo **application.properties** ubicado en src/main/resources.
+
+**Paso 2**. Añade las siguientes propiedades
 
 ```properties
 spring.application.name=micro-articulo
@@ -19,14 +20,16 @@ server.port=9091  # Puedes cambiar el puerto si es necesario
 ```
 
 ### Tarea 2. Levantar el microservicio
-Paso 1. Ejecuta la aplicación desde tu IDE (STS) o utilizando la línea de comandos
+
+**Paso 1.** Ejecuta la aplicación desde tu IDE (STS) o utilizando la línea de comandos
 
 ```cmd
 mvn spring-boot:run
 ```
+
 ### Tarea 3. Revisar el Boot Dashboard
 
-Paso 1. Para encontrar el Boot Dashboard de Spring Tool Suite, sigue estos pasos:
+**Paso 1.** Para encontrar el Boot Dashboard de Spring Tool Suite, sigue estos pasos:
 
 * En la barra de menú superior, selecciona **Window**.
 * En el menú desplegable, selecciona **Show View**.
@@ -41,7 +44,7 @@ Paso 1. Para encontrar el Boot Dashboard de Spring Tool Suite, sigue estos pasos
 
 ### Tarea 4. Verificar los mensajes en la consola
 
-Paso 1. Para acceder a los mensajes de la consola cuando se ejecuta un microservicio en Spring Tool Suite (STS), sigue estos pasos:
+**Paso 1.** Para acceder a los mensajes de la consola cuando se ejecuta un microservicio en Spring Tool Suite (STS), sigue estos pasos:
 
 * Una vez que el microservicio esté en ejecución, busca la vista de la consola en la parte inferior de la ventana de STS.
 
@@ -52,7 +55,8 @@ Paso 1. Para acceder a los mensajes de la consola cuando se ejecuta un microserv
 </div>
 
 ### Tarea 5. Consumir el microservicio
-Paso 1. Usa Postman o Insomia para consumir el microservicio, básate en el siguiente JSON
+
+**Paso 1.** Usa Postman o Insomia para consumir el microservicio, básate en el siguiente JSON
 
 > **Nota:** Puedes encontrar más información en el [sitio oficial de JSON](https://www.json.org/json-es.html).
 
@@ -68,7 +72,8 @@ Paso 1. Usa Postman o Insomia para consumir el microservicio, básate en el sigu
 ```
 
 ### Tarea 6. Gestionar varias instancias
-Paso 1. Vuelve a iniciar el microservicio, apágalo y enciéndolo nuevamente, o incluso levanta otra instancia.
+
+**Paso 1.** Vuelve a iniciar el microservicio, apágalo y enciéndolo nuevamente, o incluso levanta otra instancia.
 
 * Navega hasta tu proyecto de microservicio en el Explorador de Proyectos.
 * Haz clic derecho sobre el proyecto y selecciona Run As.
@@ -80,10 +85,11 @@ Paso 1. Vuelve a iniciar el microservicio, apágalo y enciéndolo nuevamente, o 
 
 ### Tarea 7. Verificar las instancias en ejecución
 
-Paso 1. Asegúrate de que ambas instancias del microservicio están en ejecución comprobando los mensajes de la consola.
+**Paso 1.** Asegúrate de que ambas instancias del microservicio están en ejecución comprobando los mensajes de la consola.
 
-Paso 2. Puedes acceder a las aplicaciones a través de los puertos especificados en tu navegador o mediante herramientas de prueba como Postman.
+**Paso 2.** Puedes acceder a las aplicaciones a través de los puertos especificados en tu navegador o mediante herramientas de prueba como Postman.
 
 ### Tarea 8. Conclusiones
-Paso 2. ¿Qué observas sobre los artículos agregados?
+
+**Paso 1.** ¿Qué observas sobre los artículos agregados?
 

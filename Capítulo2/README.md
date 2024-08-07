@@ -4,36 +4,47 @@
 Al finalizar la práctica, serás capaz de:
 - Identificar y separar componentes y servicios dentro de un sistema monolítico para convertirlos en microservicios independientes.
 
-## Objetivo Visual 
-Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen. 
-
-![diagrama1](../images/img1.png)
-
 ## Duración aproximada:
 - 90 minutos.
 
-## Tabla de ayuda:
-Agregar una tabla con la información que pueda requerir el participante durante el laboratorio, como versión de software, IPs de servers, usuarios y credenciales de acceso.
-| Contraseña | Correo | Código |
-| --- | --- | ---|
-| Netec2024 | edgardo@netec.com | 123abc |
 
 ## Instrucciones 
-<!-- Proporciona pasos detallados sobre cómo configurar y administrar sistemas, implementar soluciones de software, realizar pruebas de seguridad, o cualquier otro escenario práctico relevante para el campo de la tecnología de la información -->
-### Tarea 1. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
 
-Paso 2. <!-- Añadir instrucción -->
+### Tarea 1. Planteamiento general del caso de estudio
 
-Paso 3. <!-- Añadir instrucción -->
+* Sistema de software que permite automatizar un punto de venta. Debe modelar el proceso típico de adquisición de artículos median un carrito de compras (selección, eliminación, generación del comprobante de compra, facturación, etc.). Además de la administración de los elementos necesarios para la operación (Artículos, Clientes, etc.).
 
-### Tarea 2. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
+* Los requerimientos iniciales son delineados en el diagrama de casos de uso siguiente.
 
-Paso 2. <!-- Añadir instrucción -->
+<p align="center">
+  <img src="../images/img16_pdv.png" alt="Punto de Venta" />
+</p>
 
-Paso 3. <!-- Añadir instrucción -->
+ 
+**Paso 1.**
 
-### Resultado esperado
-En esta sección se debe mostrar el resultado esperado de nuestro laboratorio
-![imagen resultado](../images/img3.png)
+Sin restricciones o acotamientos metodológicos genera el o los modelos que consideres nos permitan la implementación del caso de estudio descrito.
+
+**Paso 2.** Discusión  
+
+a. La discusión va determinada por los siguientes cuestionamientos:
+
+1. ¿La propuesta de solución fue afectada por los temas vistos en la introducción del taller?
+2. ¿La propuesta es 'cloud-native'?, ¿si/no?, ¿por qué?
+3. ¿Qué tecnologías propone para la implementación? ¿Por qué motivos?
+
+
+
+### Resultados esperados
+ 
+**Posible Solución I**
+
+<p align="center">
+  <img src="../images/img17_monolito.png" alt="Monolito" />
+</p>
+
+
+**Posible Solución II*
+<p align="center">
+  <img src="../images/img18_ms.png" alt="Microservicios" />
+</p>

@@ -7,11 +7,11 @@ Al finalizar la práctica, serás capaz de:
 ## Duración aproximada:
 - 45 minutos.
 
-
 ## Instrucciones 
 
 ### Tarea 1. Creación un nuevo proyecto Spring Boot
-Paso 1. Crear un nuevo proyecto de tipo Spring Boot, 
+
+**Paso 1.** Crear un nuevo proyecto de tipo Spring Boot, 
 * **Name**: micro-articulo
 * **Type**: Maven
 * **Packaging**: Jar
@@ -23,14 +23,16 @@ Paso 1. Crear un nuevo proyecto de tipo Spring Boot,
 * **package**: com.netec.micro_articulo
 
 ### Tarea 2. Añadir los inicializadores.
-Paso 1. Agrega los inicializadores:
+
+**Paso 1.** Agrega los inicializadores:
+
 * Spring Web
 * Spring Boot Dev Tools
 
 
 ### Tarea 3. Implementar el microservicio: micro-articulo
 
-Paso 1. Los endpoints podrías ser los siguientes:
+**Paso 1.** Los endpoints podrías ser los siguientes:
 
 | Método | URI/Endpoints                     | Cuerpo  |
 |--------|----------------------------------|--------|
@@ -41,7 +43,7 @@ Paso 1. Los endpoints podrías ser los siguientes:
 
 
 ### Tarea 3. Aterrizar el contenido de cada archivo
-Paso 1. ¿Qué elementos son relevantes en el desarrollo del microservicio micro-articulo dentro de las siguientes carpetas y archivos?
+**Paso 1.** ¿Qué elementos son relevantes en el desarrollo del microservicio micro-articulo dentro de las siguientes carpetas y archivos?
 
 * com.netec.app.controlador
 * com.netec.app.entities
