@@ -16,22 +16,22 @@ Al finalizar la práctica, serás capaz de:
 
 ## Instrucciones 
 
-### Tarea 1. Crear un nuevo proyecto Spring Boot, usando Java 21, Maven y empaquetamiento JAR
+### Tarea 1. Crear un nuevo proyecto Spring Boot, usando Java 21, Maven y empaquetamiento JAR.
 
-**Paso 1.** Inicia STS
+**Paso 1.** Inicia STS.
 
-**Paso 2.** Selecciona un espacio de trabajo para tu nuevo proyecto
+**Paso 2.** Selecciona un espacio de trabajo para tu nuevo proyecto.
 
-**Paso 3.** Usa Spring Boot, con Java 21, Maven y empaquetamiento JAR
+**Paso 3.** Usa Spring Boot, con Java 21, Maven y empaquetamiento JAR.
 
 
-### Tarea 2. Agrega los inicializadores
+### Tarea 2. Agrega los inicializadores.
 
-**Paso 1.** Spring Web & Spring Boot Dev Tools
+**Paso 1.** Spring Web & Spring Boot Dev Tools.
 
-### Tarea 3. Cree y codifique lo siguiente
+### Tarea 3. Crea y codifica.
 
-**Paso 1.** Crea la entidad Producto
+**Paso 1.** Crea la entidad `Producto`.
 
 ```java
 public class Producto {
@@ -57,7 +57,7 @@ public class Producto {
 
 ```
 
-**Paso 2.** Crea la interface IProductoServicio
+**Paso 2.** Crea la interfaz `IProductoServicio`.
 
 ```java
 package com.netec.practica32.service;
@@ -71,7 +71,7 @@ public abstract interface IProductoService {
 
 ```
 
-**Paso 3.** Crea la clase ProductoServicio que implemente la interface del punto anterior.
+**Paso 3.** Crea la clase `ProductoServicio` que implemente la interfaz del punto anterior.
 
 ```java
 package com.netec.practica32.service;
