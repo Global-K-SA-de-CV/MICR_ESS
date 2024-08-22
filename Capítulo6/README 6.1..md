@@ -4,38 +4,39 @@
 Al finalizar la práctica, serás capaz de:
 - Definir y estructurar el esquema de la base de datos que soporte el microservicio.
 
-## Objetivo Visual 
-Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen. 
+## Objetivo Visual
 
-![diagrama1](../images/img1.png)
+<div style="text-align: center;">
+    <img src="../images/ro9.png" alt="Spring Tool Suite">
+</div>
+
 
 ## Duración aproximada:
 - 40 minutos.
 
-## Tabla de ayuda:
-Agregar una tabla con la información que pueda requerir el participante durante el laboratorio, como versión de software, IPs de servers, usuarios y credenciales de acceso.
-| Contraseña | Correo | Código |
-| --- | --- | ---|
-| Netec2024 | edgardo@netec.com | 123abc |
 
 ## Instrucciones 
-<!-- Proporciona pasos detallados sobre cómo configurar y administrar sistemas, implementar soluciones de software, realizar pruebas de seguridad, o cualquier otro escenario práctico relevante para el campo de la tecnología de la información -->
-### Tarea 1. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
 
-Paso 2. <!-- Añadir instrucción -->
+### Tarea 1. Identificación de entidades para los microservicios: micro-articulo & micro-carritof
 
-Paso 3. <!-- Añadir instrucción -->
+**Paso 1.** Identificar las entidades clave para los microservicios hasta este momento creados.
 
-### Tarea 2. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
 
-Paso 2. <!-- Añadir instrucción -->
+**Paso 2.** Varificar que puede tener acceso a la base de datos MySQL
 
-Paso 3. <!-- Añadir instrucción -->
+```cmd
+mysql -uroot -pNetec_2357 -hlocalhost
+```
 
-### Resultado esperado
-En esta sección se debe mostrar el resultado esperado de nuestro laboratorio
-![imagen resultado](../images/img3.png)
+**Paso 3.** Crear una base de datos para micro-articulo y otra instancia de base de datos para micro-carrito
+
+```sql
+show databases;
+create database micro_articulo_bd;
+create database micro_carrito_bd;
+show databases;
+```
+
+ 
 
 

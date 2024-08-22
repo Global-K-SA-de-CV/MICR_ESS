@@ -4,36 +4,106 @@
 Al finalizar la práctica, serás capaz de:
 - Configurar y generar un proyecto básico con Spring Boot, estableciendo una base sólida para el desarrollo de aplicaciones orientadas a microservicios.
 
-## Objetivo Visual 
-Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen. 
+## Objetivo Visual
 
-![diagrama1](../images/img1.png)
+<div style="text-align: center;">
+    <img src="../images/ro2.png" alt="Spring Tool Suite">
+</div>
 
 ## Duración aproximada:
 - 30 minutos.
 
-## Tabla de ayuda:
-Agregar una tabla con la información que pueda requerir el participante durante el laboratorio, como versión de software, IPs de servers, usuarios y credenciales de acceso.
-| Contraseña | Correo | Código |
-| --- | --- | ---|
-| Netec2024 | edgardo@netec.com | 123abc |
 
 ## Instrucciones 
-<!-- Proporciona pasos detallados sobre cómo configurar y administrar sistemas, implementar soluciones de software, realizar pruebas de seguridad, o cualquier otro escenario práctico relevante para el campo de la tecnología de la información -->
-### Tarea 1. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
 
-Paso 2. <!-- Añadir instrucción -->
+### Tarea 1. Crear un nuevo proyecto Spring Boot, usando Java 21, Maven y empaquetamiento JAR
 
-Paso 3. <!-- Añadir instrucción -->
+**Paso 1.** Inicia STS
 
-### Tarea 2. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
+**Paso 2.** Selecciona un espacio de trabajo para tu nuevo proyecto
 
-Paso 2. <!-- Añadir instrucción -->
+**Paso 3.** Usa Spring Boot, con Java 21, Maven y empaquetamiento JAR
 
-Paso 3. <!-- Añadir instrucción -->
 
-### Resultado esperado
-En esta sección se debe mostrar el resultado esperado de nuestro laboratorio
-![imagen resultado](../images/img3.png)
+### Tarea 2. Agrega los inicializadores
+
+**Paso 1.** Spring Web & Spring Boot Dev Tools
+
+### Tarea 3. Cree y codifique lo siguiente
+
+**Paso 1.** Crea la entidad Producto
+
+```java
+public class Producto {
+
+    private int id;
+    private String nombre;
+    private double precio;
+
+    public Producto() {
+        super();
+    }
+
+    public Producto(int id, String nombre, double precio) {
+        super();
+        this.id = id;
+        this.nombre = nombre;
+        this.precio = precio;
+    }
+
+    // Getters & Setters
+    // Líneas omitidas
+}
+
+```
+
+**Paso 2.** Crea la interface IProductoServicio
+
+```java
+package com.netec.practica32.service;
+import java.util.List;
+import com.netec.practica32.entities.Producto;
+
+public abstract interface IProductoService {
+    public abstract List<Producto> findAll();
+    Producto findById(int id);
+}
+
+```
+
+**Paso 3.** Crea la clase ProductoServicio que implemente la interface del punto anterior.
+
+```java
+package com.netec.practica32.service;
+
+import java.util.Arrays;
+import java.util.List;
+import org.springframework.stereotype.Service;
+import com.netec.practica32.entities.Producto;
+
+@Service
+public class ProductoServiceImpl implements IProductoService {
+
+    private List<Producto> productos = Arrays.asList(
+        new Producto(1, "Producto A", 100.0),
+        new Producto(2, "Producto B", 200.0), 
+        new Producto(3, "Producto C", 300.0),
+        new Producto(4, "Producto D", 400.0));
+
+    @Override
+    public List<Producto> findAll() {
+        return productos;
+    }
+
+    @Override
+    public Producto findById(int id) {
+        for (Producto producto : productos) {
+            if (producto.getId() == id) {
+                return producto;
+            }
+        }
+        return null;
+    }
+}
+
+```

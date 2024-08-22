@@ -4,36 +4,31 @@
 Al finalizar la práctica, serás capaz de:
 - Crear y configurar un segundo microservicio que se comunique de manera eficiente con el microservicio de artículos utilizando Feign.
 
-## Objetivo Visual 
-Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen. 
 
-![diagrama1](../images/img1.png)
+## Objetivo Visual
+
+<div style="text-align: center;">
+    <img src="../images/ro8.png" alt="Spring Tool Suite">
+</div>
+
+
 
 ## Duración aproximada:
 - 30 minutos.
 
-## Tabla de ayuda:
-Agregar una tabla con la información que pueda requerir el participante durante el laboratorio, como versión de software, IPs de servers, usuarios y credenciales de acceso.
-| Contraseña | Correo | Código |
-| --- | --- | ---|
-| Netec2024 | edgardo@netec.com | 123abc |
-
 ## Instrucciones 
-<!-- Proporciona pasos detallados sobre cómo configurar y administrar sistemas, implementar soluciones de software, realizar pruebas de seguridad, o cualquier otro escenario práctico relevante para el campo de la tecnología de la información -->
-### Tarea 1. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
 
-Paso 2. <!-- Añadir instrucción -->
+### Tarea 1. Ejecución del micro-carritof
 
-Paso 3. <!-- Añadir instrucción -->
 
-### Tarea 2. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
+**Paso 1.** Ejecuta el proyecto micro-carritof
 
-Paso 2. <!-- Añadir instrucción -->
+**Paso 2.** Prueba los endpoints utilizando las herramientas Postman o Curl
 
-Paso 3. <!-- Añadir instrucción -->
+| Método | URI/Endpoints                     | Cuerpo  |
+|--------|----------------------------------|--------|
+| POST   | /carrito  | JSON |
+| GET    | /carrito | N/A |
 
-### Resultado esperado
-En esta sección se debe mostrar el resultado esperado de nuestro laboratorio
-![imagen resultado](../images/img3.png)
+ 
+

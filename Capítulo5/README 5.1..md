@@ -4,36 +4,69 @@
 Al finalizar la práctica, serás capaz de:
 - Crear y configurar un segundo microservicio que se comunique de manera eficiente con el microservicio de artículos.
 
-## Objetivo Visual 
-Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen. 
+## Objetivo Visual
 
-![diagrama1](../images/img1.png)
+<div style="text-align: center;">
+    <img src="../images/ro7.png" alt="Spring Tool Suite">
+</div>
+
 
 ## Duración aproximada:
 - 35 minutos.
 
 ## Tabla de ayuda:
-Agregar una tabla con la información que pueda requerir el participante durante el laboratorio, como versión de software, IPs de servers, usuarios y credenciales de acceso.
-| Contraseña | Correo | Código |
-| --- | --- | ---|
-| Netec2024 | edgardo@netec.com | 123abc |
+Los endpoints podrías ser los siguientes:
+
+| Método | URI/Endpoints                     | Cuerpo  |
+|--------|----------------------------------|--------|
+| POST   | /carrito  | JSON |
+| GET    | /carrito | N/A |
+
 
 ## Instrucciones 
-<!-- Proporciona pasos detallados sobre cómo configurar y administrar sistemas, implementar soluciones de software, realizar pruebas de seguridad, o cualquier otro escenario práctico relevante para el campo de la tecnología de la información -->
-### Tarea 1. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
 
-Paso 2. <!-- Añadir instrucción -->
+### Tarea 1. Creación un nuevo proyecto Spring Boot
 
-Paso 3. <!-- Añadir instrucción -->
+**Paso 1.** Crear un nuevo proyecto de tipo Spring Boot, 
+* **Name**: micro-carritort
+* **Type**: Maven
+* **Packaging**: Jar
+* **Java Version**: 21
+* **Language**: Java
+* **Group**: com.netec.micro_carritort
+* **Version**: 0.0.1-SNAPSHOT
+* **Description**: Implementación del microservicio micro-carritort
+* **package**: com.netec.micro_carritort
 
-### Tarea 2. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
 
-Paso 2. <!-- Añadir instrucción -->
+**Paso 2.** Agrega los inicializadores:
 
-Paso 3. <!-- Añadir instrucción -->
+* Spring Web
+* Spring Boot Dev Tools
 
-### Resultado esperado
-En esta sección se debe mostrar el resultado esperado de nuestro laboratorio
-![imagen resultado](../images/img3.png)
+### Tarea 2. Configurar el microservicio de nombre micro-carritort en el puerto 9092
+
+**Paso 1.** Expande la estructua del proyecto y localiza la carpeta **src/main/resources**
+
+**Paso 2.** Dentro de esta carpeta, abre el archivo **application.properties**.
+
+**Paso 3.** Agrega la siguiente línea para configurarar el puerto del microservicio a 9092
+
+```properties
+server.port=9092
+```
+
+### Tarea 3. Crear la entidad Carrito
+
+### Tarea 4. Crear la interface ICarritoServicio
+
+### Tarea 5. Crear la implementación del servicio CarritoServicio
+
+### Tarea 6. Crear el controlador del microservicio CarritoController
+
+### Tarea 7. Probar el microservicio
+
+| Método HTTP | Ruta     | Cuerpo |
+|-------------|----------|--------|
+| POST        | /carrito |  JSON  |
+| GET         | /carrito |   N/A  |
