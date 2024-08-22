@@ -4,7 +4,6 @@
 Al finalizar la práctica, serás capaz de:
 - Configurar y gestionar propiedades en una aplicación Spring Boot, utilizando archivos de configuración.
 
-
 ## Objetivo Visual
 
 <div style="text-align: center;">
@@ -16,18 +15,18 @@ Al finalizar la práctica, serás capaz de:
 
 ## Instrucciones 
 
-### Tarea 1. Configurar propiedades en Spring Boot
+### Tarea 1. Configurar propiedades en Spring Boot.
 
-**Paso 1.** Modifica el archivo application.properties con las propiedades del cuadro siguiente:
+**Paso 1.** Modifica el archivo `application.properties` con las propiedades del cuadro siguiente:
 
 ```properties
 spring.application.name=practica32
 server.port=9999
 ```
 
-### Tarea 2. Desplegar el servicio
+### Tarea 2. Desplegar el servicio.
 
-**Paso 1.** Haz clic derecho en la clase principal del proyecto en Spring Boot. Selecciona **Run As** > **Spring Boot App**
+**Paso 1.** Haz clic derecho en la clase principal del proyecto en Spring Boot. Selecciona **Run As** > **Spring Boot App**.
 
 <div style="text-align: center;">
     <img src="../images/img8_runas.png" alt="Insomia">
@@ -38,20 +37,20 @@ server.port=9999
 
 **Paso 1.** Usa Postman o un navegador y consume el servicio, prueba las URIs que hayas implementado en el servicio.
 
-### Tarea 4. Comentar experiencia adquirida
+### Tarea 4. Comentar experiencia adquirida.
 
-**Paso 1.** Comenta la actividad realizada
+**Paso 1.** Comenta la actividad realizada.
 
-* ¿El proyecto cambiaría si este se realiza con Gradle en lugar de Maven?
+* ¿El proyecto cambiaría si éste se realiza con Gradle en lugar de Maven?
 * ¿Que tendrías que realizar para levantar otra instancia?
 
 
-### Tarea 5. Trabajar con Logger
+### Tarea 5. Trabajar con Logger.
 
 **Paso 1.** Modifica el código para registrar un mensaje con Logger.
 
- * Modifica el archivo src/main/resources/application.properties
- * Añade la variable **participant.name**, con tu nombre
+ * Modifica el archivo `src/main/resources/application.properties`.
+ * Añade la variable **participant.name**, con tu nombre.
  * Modifica el método main para registrar un mensaje con tu nombre usando Logger.
  
 ```properties
