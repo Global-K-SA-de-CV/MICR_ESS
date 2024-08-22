@@ -5,6 +5,13 @@ Al finalizar la práctica, serás capaz de:
 - Crear y configurar un segundo microservicio que se comunique de manera eficiente con el microservicio de artículos.
 
 
+## Objetivo Visual
+
+<div style="text-align: center;">
+    <img src="../images/ro8.png" alt="Spring Tool Suite">
+</div>
+
+
 ## Duración aproximada:
 - 45 minutos.
 
@@ -43,7 +50,7 @@ Al finalizar la práctica, serás capaz de:
 | GET    | /carrito | N/A |
 
 
-**Paso 2.** Agrega la siguiente línea para configurarar el puerto del microservicio a 9092
+**Paso 2.** Agrega la siguiente línea para configurarar el puerto del microservicio a 9093
 
 ```properties
 spring.application.name=micro-carritof

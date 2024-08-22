@@ -4,6 +4,13 @@
 Al finalizar la práctica, serás capaz de:
 - Configurar y desplegar el microservicio, así como realizar pruebas de sus endpoints utilizando una herramienta de pruebas de API.
 
+## Objetivo Visual
+
+<div style="text-align: center;">
+    <img src="../images/ro6.png" alt="Spring Tool Suite">
+</div>
+
+
 ## Duración aproximada:
 - 75 minutos.
 

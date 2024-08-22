@@ -4,6 +4,14 @@
 Al finalizar la práctica, serás capaz de:
 - Configurar las propiedades necesarias en el archivo de propiedades, para establecer la conexión con una base de datos relacional.
 
+
+## Objetivo Visual
+
+<div style="text-align: center;">
+    <img src="../images/ro11.png" alt="Spring Tool Suite">
+</div>
+
+
 ## Duración aproximada:
 - 30 minutos.
 

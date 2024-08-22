@@ -4,6 +4,11 @@
 Al finalizar la práctica, serás capaz de:
 - Realizar pruebas de persistencia del microservicio en la base de datos.
 
+## Objetivo Visual
+
+<div style="text-align: center;">
+    <img src="../images/ro12.png" alt="Spring Tool Suite">
+</div>
 
 ## Duración aproximada:
 - 45 minutos.

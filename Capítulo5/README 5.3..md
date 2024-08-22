@@ -5,6 +5,14 @@ Al finalizar la práctica, serás capaz de:
 - Crear y configurar un segundo microservicio que se comunique de manera eficiente con el microservicio de artículos utilizando Feign.
 
 
+## Objetivo Visual
+
+<div style="text-align: center;">
+    <img src="../images/ro8.png" alt="Spring Tool Suite">
+</div>
+
+
+
 ## Duración aproximada:
 - 30 minutos.
 

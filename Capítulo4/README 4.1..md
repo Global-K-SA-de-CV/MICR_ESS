@@ -4,6 +4,13 @@
 Al finalizar la práctica, serás capaz de:
 - Implementar un microservicio con entidades, servicios y controladores, utilizando Spring.
 
+
+## Objetivo Visual
+
+<div style="text-align: center;">
+    <img src="../images/ro5.png" alt="Spring Tool Suite">
+</div>
+
 ## Duración aproximada:
 - 45 minutos.
 

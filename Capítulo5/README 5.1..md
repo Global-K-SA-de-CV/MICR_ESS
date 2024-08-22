@@ -4,6 +4,13 @@
 Al finalizar la práctica, serás capaz de:
 - Crear y configurar un segundo microservicio que se comunique de manera eficiente con el microservicio de artículos.
 
+## Objetivo Visual
+
+<div style="text-align: center;">
+    <img src="../images/ro7.png" alt="Spring Tool Suite">
+</div>
+
+
 ## Duración aproximada:
 - 35 minutos.
 

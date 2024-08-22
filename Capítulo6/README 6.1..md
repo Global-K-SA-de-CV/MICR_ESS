@@ -4,6 +4,12 @@
 Al finalizar la práctica, serás capaz de:
 - Definir y estructurar el esquema de la base de datos que soporte el microservicio.
 
+## Objetivo Visual
+
+<div style="text-align: center;">
+    <img src="../images/ro9.png" alt="Spring Tool Suite">
+</div>
+
 
 ## Duración aproximada:
 - 40 minutos.
