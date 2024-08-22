@@ -2,7 +2,7 @@
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
-- Implementar un microservicio con entidades, servicios y controladores, utilizando Spring.
+- Implementar un microservicio con entidades, servicios y controladores utilizando Spring.
 
 
 ## Objetivo Visual
@@ -18,7 +18,7 @@ Al finalizar la práctica, serás capaz de:
 
 ### Tarea 1. Creación un nuevo proyecto Spring Boot
 
-**Paso 1.** Crear un nuevo proyecto de tipo Spring Boot, 
+**Paso 1.** Crea un nuevo proyecto de tipo Spring Boot.
 * **Name**: micro-articulo
 * **Type**: Maven
 * **Packaging**: Jar
@@ -49,7 +49,7 @@ Al finalizar la práctica, serás capaz de:
 | DELETE | /articulo/{id}  | N/A   |
 
 
-### Tarea 3. Aterrizar el contenido de cada archivo
+### Tarea 3. Aterrizar el contenido de cada archivo.
 **Paso 1.** ¿Qué elementos son relevantes en el desarrollo del microservicio micro-articulo dentro de las siguientes carpetas y archivos?
 
 * com.netec.app.controlador
