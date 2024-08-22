@@ -16,7 +16,7 @@ Al finalizar la práctica, serás capaz de:
 
 ## Instrucciones 
 ### Tarea 1. Análisis de la aplicación provista en el curso
-**Paso 1.** Revise de manera detallada la implementación provista por su instructor
+**Paso 1.** Revisa de manera detallada la implementación provista por tu instructor.
 
 * [Application - Petstore Java EE 7](https://github.com/agoncal/agoncal-application-petstore-ee7)
 
@@ -24,25 +24,25 @@ Al finalizar la práctica, serás capaz de:
 
 **Paso 2.** Discusión
 
-a. ¿Posee aplicaciones n-tier en su organización?, ¿Si/no?, ¿Por qué?
+a. ¿Posees aplicaciones n-tier en tu organización?, ¿sí/no?, ¿por qué?
 
 b. ¿Cuáles son las ventajas y costos de las aplicaciones n-tier?
 
 * Cambios, mantenimiento, despliegue, etc.
     
-**Paso 3**. Típicamente, ¿Cómo se mejoran las características de calidad de las soluciones n-tier?
+**Paso 3**. Típicamente, ¿cómo se mejoran las características de calidad de las soluciones n-tier?
 
 
 ### Tarea 2. Despliegue (Opcional)
-**Paso 1.** Clonar el repositorio
+**Paso 1.** Clona el repositorio.
 
-**Paso 2.** Construir el proyecto con Maven
+**Paso 2.** Construye el proyecto con Maven.
 
-**Paso 3.** Desplegar la aplicación en un servidor de aplicacion compatible con Java EE 7, por ejemplo WildFly
+**Paso 3.** Despliega la aplicación en un servidor de aplicacion compatible con Java EE 7, por ejemplo: WildFly.
 
-**Paso 4.** Despliega el archiv **WAR** generado en la carpeta **target** al servidor WildFly
+**Paso 4.** Despliega el archivo **WAR** generado en la carpeta **target** al servidor WildFly.
 
-**Paso 5.** Acceder a la aplicación [Petstore EE 7](http://localhost:8080/applicationPetstore)
+**Paso 5.** Accede a la aplicación [Petstore EE 7](http://localhost:8080/applicationPetstore)
 
 ### Resultado esperado
 
