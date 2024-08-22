@@ -23,9 +23,9 @@ Al finalizar la práctica, serás capaz de:
 
 ## Instrucciones 
 
-### Tarea 1. Crea un controlador REST
+### Tarea 1. Crea un controlador REST.
 
-**Paso 1.** Utiliza las anotaciones @RestController, @GetMapping y @PathVariable para definir los endpoints que consumen el servicio implementado.
+**Paso 1.** Utiliza las anotaciones `@RestController`, `@GetMapping` y `@PathVariable` para definir los endpoints que consumen el servicio implementado.
 
 
 ```java
