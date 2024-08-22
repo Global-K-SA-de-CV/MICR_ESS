@@ -19,22 +19,22 @@ Al finalizar la práctica, serás capaz de:
 ### Tarea 1. Configurar el microservicio
 **Paso 1.** Abre el archivo **application.properties** ubicado en src/main/resources.
 
-**Paso 2**. Añade las siguientes propiedades
+**Paso 2**. Añade las siguientes propiedades:
 
 ```properties
 spring.application.name=micro-articulo
 server.port=9091  # Puedes cambiar el puerto si es necesario
 ```
 
-### Tarea 2. Levantar el microservicio
+### Tarea 2. Levantar el microservicio.
 
-**Paso 1.** Ejecuta la aplicación desde tu IDE (STS) o utilizando la línea de comandos
+**Paso 1.** Ejecuta la aplicación desde tu IDE (STS) o utilizando la línea de comandos.
 
 ```cmd
 mvn spring-boot:run
 ```
 
-### Tarea 3. Revisar el Boot Dashboard
+### Tarea 3. Revisar el Boot Dashboard.
 
 **Paso 1.** Para encontrar el Boot Dashboard de Spring Tool Suite, sigue estos pasos:
 
@@ -49,13 +49,13 @@ mvn spring-boot:run
 </div>
 
 
-### Tarea 4. Verificar los mensajes en la consola
+### Tarea 4. Verificar los mensajes en la consola.
 
 **Paso 1.** Para acceder a los mensajes de la consola cuando se ejecuta un microservicio en Spring Tool Suite (STS), sigue estos pasos:
 
 * Una vez que el microservicio esté en ejecución, busca la vista de la consola en la parte inferior de la ventana de STS.
 
-* Si no ves la vista de la consola, puedes abrirla manualmente yendo a la barra de menú superior, seleccionando Window, luego Show View, y finalmente Console.
+* Si no ves la vista de la consola, puedes abrirla manualmente dirigiéndote a la barra de menú superior, seleccionando Window, luego Show View, y finalmente Console.
 
 <div style="text-align: center;">
     <img src="../images/img11_console.png" alt="Console Messages">
@@ -78,7 +78,7 @@ mvn spring-boot:run
 }
 ```
 
-### Tarea 6. Gestionar varias instancias
+### Tarea 6. Gestionar varias instancias.
 
 **Paso 1.** Vuelve a iniciar el microservicio, apágalo y enciéndolo nuevamente, o incluso levanta otra instancia.
 
@@ -90,7 +90,7 @@ mvn spring-boot:run
     <img src="../images/img12_otherInstance.png" alt="Arguments">
 </div>
 
-### Tarea 7. Verificar las instancias en ejecución
+### Tarea 7. Verificar las instancias en ejecución.
 
 **Paso 1.** Asegúrate de que ambas instancias del microservicio están en ejecución comprobando los mensajes de la consola.
 
