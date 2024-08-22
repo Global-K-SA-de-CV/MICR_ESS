@@ -28,6 +28,7 @@ mysql -uroot -pNetec_2357 -hlocalhost
 show databases;
 create database micro_articulo_bd;
 create database micro_carrito_bd;
+show databases;
 ```
 
  

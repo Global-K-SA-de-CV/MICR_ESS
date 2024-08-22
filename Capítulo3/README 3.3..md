@@ -4,6 +4,12 @@
 Al finalizar la práctica, serás capaz de:
 - Implementar endpoints RESTful utilizando Spring Boot, permitiendo la lectura de recursos mediante servicios web.
 
+## Objetivo Visual
+
+<div style="text-align: center;">
+    <img src="../images/ro3.png" alt="Spring Tool Suite">
+</div>
+
 ## Duración aproximada:
 - 45 minutos.
 

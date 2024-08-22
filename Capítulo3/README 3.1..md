@@ -4,6 +4,13 @@
 Al finalizar la práctica, serás capaz de:
 - Configurar el entorno de desarrollo necesario para trabajar con Spring Boot, Spring Tool Suite (STS).
 
+## Objetivo Visual
+
+<div style="text-align: center;">
+    <img src="../images/ro1.png" alt="Spring Tool Suite">
+</div>
+
+
 ## Duración aproximada:
 - 45 minutos.
 

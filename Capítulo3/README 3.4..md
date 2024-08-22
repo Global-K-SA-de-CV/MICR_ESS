@@ -4,6 +4,13 @@
 Al finalizar la práctica, serás capaz de:
 - Configurar y gestionar propiedades en una aplicación Spring Boot, utilizando archivos de configuración.
 
+
+## Objetivo Visual
+
+<div style="text-align: center;">
+    <img src="../images/ro4.png" alt="Spring Tool Suite">
+</div>
+
 ## Duración aproximada:
 - 30 minutos.
 
@@ -29,7 +36,7 @@ server.port=9999
 
 ### Tarea 3. Consumir el servicio
 
-**Paso 1.** Usa Postman o un navegador y consume el servicio, prubeas las URIs que hayas implementado en el servicio.
+**Paso 1.** Usa Postman o un navegador y consume el servicio, prueba las URIs que hayas implementado en el servicio.
 
 ### Tarea 4. Comentar experiencia adquirida
 
