@@ -4,6 +4,13 @@
 Al finalizar la práctica, serás capaz de:
 - Identificar y separar componentes y servicios dentro de un sistema monolítico para convertirlos en microservicios independientes.
 
+
+## Objetivo Visual
+
+<div style="text-align: center;">
+    <img src="../images/ro14.png" alt="Spring Tool Suite">
+</div>
+
 ## Duración aproximada:
 - 90 minutos.
 

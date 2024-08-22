@@ -4,6 +4,13 @@
 Al finalizar la práctica, serás capaz de:
 - Analizar y comprender en detalle la estructura y funcionamiento de una arquitectura monolítica mediante el estudio de un ejemplo.
 
+## Objetivo Visual
+
+<div style="text-align: center;">
+    <img src="../images/ro13.png" alt="Spring Tool Suite">
+</div>
+
+
 ## Duración aproximada:
 - 30 minutos.
 
