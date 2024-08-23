@@ -16,9 +16,9 @@ Al finalizar la práctica, serás capaz de:
 
 ## Instrucciones 
 
-### Tarea 1. Veriricación de acceso a la base de datos MySQL
+### Tarea 1. Verificación de acceso a la base de datos MySQL
 
-**Paso 1.** Varificar que puede tener acceso a la base de datos MySQL
+**Paso 1.** Verificar que puede tener acceso a la base de datos MySQL
 
 ```cmd
 mysql -uroot -pNetec_2357 -hlocalhost
