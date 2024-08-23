@@ -4,7 +4,7 @@
 Al finalizar la práctica, serás capaz de:
 - Implementar endpoints RESTful utilizando Spring Boot, permitiendo la lectura de recursos mediante servicios web.
 
-## Objetivo Visual
+## Objetivo Visual:
 
 <div style="text-align: center;">
     <img src="../images/ro3.png" alt="Spring Tool Suite">
@@ -13,7 +13,7 @@ Al finalizar la práctica, serás capaz de:
 ## Duración aproximada:
 - 45 minutos.
 
-## Endpoints
+## Endpoints:
 
 | Método | URI/Endpoints                      |
 |--------|------------------------------------|
@@ -21,11 +21,11 @@ Al finalizar la práctica, serás capaz de:
 | GET    | http://localhost:9999/producto/1   |
 
 
-## Instrucciones 
+## Instrucciones: 
 
 ### Tarea 1. Crea un controlador REST.
 
-**Paso 1.** Utiliza las anotaciones `@RestController`, `@GetMapping` y `@PathVariable` para definir los endpoints que consumen el servicio implementado.
+**Paso 1.** Utiliza las anotaciones `@RestController`, `@GetMapping` y `@PathVariable` para definir los endpoints que consumen el servicio implementado:
 
 
 ```java
