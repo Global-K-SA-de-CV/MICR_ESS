@@ -4,7 +4,7 @@
 Al finalizar la práctica, serás capaz de:
 - Configurar y generar un proyecto básico con Spring Boot, estableciendo una base sólida para el desarrollo de aplicaciones orientadas a microservicios.
 
-## Objetivo Visual
+## Objetivo Visual:
 
 <div style="text-align: center;">
     <img src="../images/ro2.png" alt="Spring Tool Suite">
@@ -14,7 +14,7 @@ Al finalizar la práctica, serás capaz de:
 - 30 minutos.
 
 
-## Instrucciones 
+## Instrucciones: 
 
 ### Tarea 1. Crear un nuevo proyecto Spring Boot, usando Java 21, Maven y empaquetamiento JAR.
 
@@ -31,7 +31,7 @@ Al finalizar la práctica, serás capaz de:
 
 ### Tarea 3. Crea y codifica.
 
-**Paso 1.** Crea la entidad `Producto`.
+**Paso 1.** Crea la entidad `Producto`:
 
 ```java
 public class Producto {
@@ -57,7 +57,7 @@ public class Producto {
 
 ```
 
-**Paso 2.** Crea la interfaz `IProductoServicio`.
+**Paso 2.** Crea la interfaz `IProductoServicio`:
 
 ```java
 package com.netec.practica32.service;
@@ -71,7 +71,7 @@ public abstract interface IProductoService {
 
 ```
 
-**Paso 3.** Crea la clase `ProductoServicio` que implemente la interfaz del punto anterior.
+**Paso 3.** Crea la clase `ProductoServicio` que implemente la interfaz del punto anterior:
 
 ```java
 package com.netec.practica32.service;
