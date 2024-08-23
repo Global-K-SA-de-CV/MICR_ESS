@@ -4,7 +4,7 @@
 Al finalizar la práctica, serás capaz de:
 - Configurar el entorno de desarrollo necesario para trabajar con Spring Boot, Spring Tool Suite (STS).
 
-## Objetivo Visual
+## Objetivo Visual:
 
 <div style="text-align: center;">
     <img src="../images/ro1.png" alt="Spring Tool Suite">
@@ -15,7 +15,7 @@ Al finalizar la práctica, serás capaz de:
 - 45 minutos.
 
 
-## Instrucciones 
+## Instrucciones: 
 
 ### Tarea 1. Verificación de la versión de JDK instalado.
 **Paso 1.** Verificación de la instalación de JDK instalado.<br>
@@ -25,7 +25,7 @@ javac --version
 ```cmd
 java --version
 ```
-**Paso 2.** Configuración de la versión la configuración de la variable `JAVA_HOME`.
+**Paso 2.** Configuración de la versión la configuración de la variable `JAVA_HOME`:
 ```cmd
 set | findstr JAVA  
 ```
@@ -37,54 +37,54 @@ set | findstr JAVA
 gradle --version
 ```
 
-**Paso 2.** Define la variable `GRADLE_HOME`.
+**Paso 2.** Define la variable `GRADLE_HOME`:
 ```cmd
 set GRADLE_HOME=<ruta Gradle>
 ```
 
-**Paso 3.** Modifica el path.
+**Paso 3.** Modifica el path:
 ```cmd
 set PATH=%PATH%;GRADLE_HOME%\bin
 ```
 
-### Resultado esperado
+### Resultado esperado:
 
 ![imagen resultado](../images/img1_gradle.png)
 
 
 ### Tarea 3. Verificación de la versión de Maven.
 
-**Paso 1.** Ejecuta la instrucción para verificar si se cuenta con Maven.
+**Paso 1.** Ejecuta la instrucción para verificar si se cuenta con Maven:
 ```cmd
 mvn --version
 ```
 
-**Paso 2.** Pon la variable de entorno PATH.
+**Paso 2.** Pon la variable de entorno PATH:
 ```cmd
 MVN_HOME=C:\<directorio>\apache-Maven-3.6.3
 PATH=%PATH%;%MVN_HOME%\bin
 ```
 
-### Resultado esperado
+### Resultado esperado:
 
 ![imagen resultado](../images/img2_maven.png)
 
 
 ### Tarea 4. Verificación del IDE para el desarrollo de aplicaciones en Java.
 
-**Paso 1.** Localiza el ícono siguiente e inicia el STS.
+**Paso 1.** Localiza el ícono siguiente e inicia el STS:
 
 <div style="text-align: center;">
     <img src="../images/img3_sts.png" alt="Spring Tool Suite">
 </div>
 
-**Paso 2.** Localiza el ícono siguiente e inicia Postman.
+**Paso 2.** Localiza el ícono siguiente e inicia Postman:
 
 <div style="text-align: center;">
     <img src="../images/img4_postman.png" alt="Postman">
 </div>
 
-**Paso 3.** Localiza el ícono siguiente e inicia Insomia.
+**Paso 3.** Localiza el ícono siguiente e inicia Insomia:
 
 <div style="text-align: center;">
     <img src="../images/img5_insomia.png" alt="Insomia">
@@ -102,7 +102,7 @@ PATH=%PATH%;%MVN_HOME%\bin
 docker ps
 ```
 
-**Paso 2.** Verifica los puertos disponibles para MySQL.
+**Paso 2.** Verifica los puertos disponibles para MySQL:
 
 ```cmd
 netstat -ano | findstr 3306
@@ -112,7 +112,7 @@ netstat -ano | findstr 3306
     <img src="../images/img6_mysql.png" alt="Insomia">
 </div>
 
-**Paso 3.** Verifica si tienes instalado MySQL Workbench. (Opcional).
+**Paso 3.** Verifica si tienes instalado MySQL Workbench. (Opcional):
 
 ```cmd
 mysqlworkbench --version
@@ -122,13 +122,13 @@ mysqlworkbench --version
     <img src="../images/img7_mysqlwb.png" alt="Insomia">
 </div>
 
-**Paso 4.** Conéctate al servidor MySQL.
+**Paso 4.** Conéctate al servidor MySQL:
 
 ```cmd
 mysql -uroot -pNetec_2357 -hlocalhost
 ```
 
-**Paso 5.** Crea una base de datos, usa la base de datos, crea una tabla, inserta valores y consulta la información ingresada.
+**Paso 5.** Crea una base de datos, usa la base de datos, crea una tabla, inserta valores y consulta la información ingresada:
 
 ```sql
 -- Crea una base de datos
