@@ -22,7 +22,7 @@ Al finalizar la práctica, serás capaz de:
 **Paso 1.** Identificar las entidades clave para los microservicios hasta este momento creados.
 
 
-**Paso 2.** Varificar que puede tener acceso a la base de datos MySQL
+**Paso 2.** Verificar que puede tener acceso a la base de datos MySQL
 
 ```cmd
 mysql -uroot -pNetec_2357 -hlocalhost
