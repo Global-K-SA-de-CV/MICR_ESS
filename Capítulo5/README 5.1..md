@@ -4,7 +4,7 @@
 Al finalizar la práctica, serás capaz de:
 - Crear y configurar un segundo microservicio que se comunique de manera eficiente con el microservicio de artículos.
 
-## Objetivo Visual
+## Objetivo Visual:
 
 <div style="text-align: center;">
     <img src="../images/ro7.png" alt="Spring Tool Suite">
@@ -15,7 +15,7 @@ Al finalizar la práctica, serás capaz de:
 - 35 minutos.
 
 ## Tabla de ayuda:
-Los endpoints podrías ser los siguientes:
+Los Endpoints podrían ser los siguientes:
 
 | Método | URI/Endpoints                     | Cuerpo  |
 |--------|----------------------------------|--------|
@@ -23,11 +23,11 @@ Los endpoints podrías ser los siguientes:
 | GET    | /carrito | N/A |
 
 
-## Instrucciones 
+## Instrucciones:
 
-### Tarea 1. Creación un nuevo proyecto Spring Boot
+### Tarea 1. Creación de un nuevo proyecto Spring Boot.
 
-**Paso 1.** Crear un nuevo proyecto de tipo Spring Boot, 
+**Paso 1.** Crear un nuevo proyecto de tipo Spring Boot: 
 * **Name**: micro-carritort
 * **Type**: Maven
 * **Packaging**: Jar
@@ -44,27 +44,27 @@ Los endpoints podrías ser los siguientes:
 * Spring Web
 * Spring Boot Dev Tools
 
-### Tarea 2. Configurar el microservicio de nombre micro-carritort en el puerto 9092
+### Tarea 2. Configurar el microservicio de nombre micro-carritort en el puerto 9092.
 
-**Paso 1.** Expande la estructua del proyecto y localiza la carpeta **src/main/resources**
+**Paso 1.** Expande la estructua del proyecto y localiza la carpeta **src/main/resources**.
 
 **Paso 2.** Dentro de esta carpeta, abre el archivo **application.properties**.
 
-**Paso 3.** Agrega la siguiente línea para configurarar el puerto del microservicio a 9092
+**Paso 3.** Agrega la siguiente línea para configurarar el puerto del microservicio a 9092:
 
 ```properties
 server.port=9092
 ```
 
-### Tarea 3. Crear la entidad Carrito
+### Tarea 3. Crear la entidad Carrito.
 
-### Tarea 4. Crear la interface ICarritoServicio
+### Tarea 4. Crear la interface ICarritoServicio.
 
-### Tarea 5. Crear la implementación del servicio CarritoServicio
+### Tarea 5. Crear la implementación del servicio CarritoServicio.
 
-### Tarea 6. Crear el controlador del microservicio CarritoController
+### Tarea 6. Crear el controlador del microservicio CarritoController.
 
-### Tarea 7. Probar el microservicio
+### Tarea 7. Probar el microservicio:
 
 | Método HTTP | Ruta     | Cuerpo |
 |-------------|----------|--------|
