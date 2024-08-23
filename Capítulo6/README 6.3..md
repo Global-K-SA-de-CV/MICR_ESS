@@ -5,7 +5,7 @@ Al finalizar la práctica, serás capaz de:
 - Configurar las propiedades necesarias en el archivo de propiedades, para establecer la conexión con una base de datos relacional.
 
 
-## Objetivo Visual
+## Objetivo Visual:
 
 <div style="text-align: center;">
     <img src="../images/ro11.png" alt="Spring Tool Suite">
@@ -15,22 +15,22 @@ Al finalizar la práctica, serás capaz de:
 ## Duración aproximada:
 - 30 minutos.
 
-## Instrucciones 
-### Tarea 1. Veriricación de acceso a la base de datos MySQL
+## Instrucciones: 
+### Tarea 1. Verificación de acceso a la base de datos MySQL.
 
-**Paso 1.** Varificar que puede tener acceso a la base de datos MySQL
+**Paso 1.** Verificar que se tiene acceso a la base de datos MySQL:
 
 ```cmd
 mysql -uroot -pNetec_2357 -hlocalhost
 ```
 
-**Paso 2.** Verificar las bases de datos creadas
+**Paso 2.** Verificar las bases de datos creadas:
 
 ```sql
 show databases
 ```
 
-**Paso 2.** Agrega las siguientes líneas para configurarar el acceso a la base de datos
+**Paso 2.** Agrega las siguientes líneas para configurarar el acceso a la base de datos:
 
 ```properties
 # Lineas para MySQL
