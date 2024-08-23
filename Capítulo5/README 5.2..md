@@ -5,7 +5,7 @@ Al finalizar la práctica, serás capaz de:
 - Crear y configurar un segundo microservicio que se comunique de manera eficiente con el microservicio de artículos.
 
 
-## Objetivo Visual
+## Objetivo Visual:
 
 <div style="text-align: center;">
     <img src="../images/ro8.png" alt="Spring Tool Suite">
@@ -15,11 +15,11 @@ Al finalizar la práctica, serás capaz de:
 ## Duración aproximada:
 - 45 minutos.
 
-## Instrucciones 
+## Instrucciones: 
 
-### Tarea 1. Creación un nuevo proyecto Spring Boot
+### Tarea 1. Creación de un nuevo proyecto Spring Boot.
 
-**Paso 1.** Crear un nuevo proyecto de tipo Spring Boot, 
+**Paso 1.** Crear un nuevo proyecto de tipo Spring Boot: 
 * **Name**: micro-carritofeign
 * **Type**: Maven
 * **Packaging**: Jar
@@ -40,9 +40,9 @@ Al finalizar la práctica, serás capaz de:
 * Spring Boot Dev Tools
 
 
-### Tarea 2. Implementa el microservicio asociado a carrito
+### Tarea 2. Implementa el microservicio asociado a carrito.
 
-**Paso 1.** Crea los componentes necesarios para tener un microservicio cuyos endpoints podrían ser los siguientes:
+**Paso 1.** Crea los componentes necesarios para tener un microservicio cuyos Endpoints podrían ser los siguientes:
 
 | Método | URI/Endpoints                     | Cuerpo  |
 |--------|----------------------------------|--------|
@@ -50,14 +50,14 @@ Al finalizar la práctica, serás capaz de:
 | GET    | /carrito | N/A |
 
 
-**Paso 2.** Agrega la siguiente línea para configurarar el puerto del microservicio a 9093
+**Paso 2.** Agrega la siguiente línea para configurarar el puerto del microservicio a 9093:
 
 ```properties
 spring.application.name=micro-carritof
 spring.application.port=9093
 ```
 
-**Paso 3.** Define a lógica para insertar un articulo recuperado del microservicio de articulos.
+**Paso 3.** Define la lógica para insertar un articulo recuperado del microservicio de articulos.
 
 
 **Paso 4.** Utiliza **@FeignClient(name="<nombre>", url=<URI>)** para consumir desde el servicio de carrito al servicio de artículo.
@@ -83,9 +83,9 @@ public interface IArticuloFeign {
 ```
 
 
-### Tarea 3. Conclusiones
+### Tarea 3. Conclusiones.
 
-**Paso 1.** Describe los aspectos más relevantes de cada paquete y carpeta.
+**Paso 1.** Describe los aspectos más relevantes de cada paquete y carpeta:
 
 <div style="text-align: center;">
     <img src="../images/img13_packages.png" alt="Packages Java">
