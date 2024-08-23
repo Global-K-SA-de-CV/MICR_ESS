@@ -4,7 +4,7 @@
 Al finalizar la práctica, serás capaz de:
 - Realizar pruebas de persistencia del microservicio en la base de datos.
 
-## Objetivo Visual
+## Objetivo Visual:
 
 <div style="text-align: center;">
     <img src="../images/ro12.png" alt="Spring Tool Suite">
@@ -13,16 +13,16 @@ Al finalizar la práctica, serás capaz de:
 ## Duración aproximada:
 - 45 minutos.
 
-## Instrucciones 
+## Instrucciones: 
 
-### Tarea 1. Levantar el microservicio: micro-articulo
-**Paso 1.** Iniciar el microservicio
+### Tarea 1. Levantar el microservicio: micro-articulo.
+**Paso 1.** Iniciar el microservicio.
 
 * Asegúrate de que el microservicio micro-articulo esté configurado correctamente y ejecútalo en tu entorno de desarrollo.
 
-**Paso 2.** Verificar la existencia de las tablas en MySQL
+**Paso 2.** Verificar la existencia de las tablas en MySQL:
 
-* Abre una terminal y conecta a la base de datos MySQL
+* Abre una terminal y conecta a la base de datos MySQL:
 
 ```cmd
 mysql -hlocalhost -uroot -pabcd_2357
@@ -33,7 +33,7 @@ mysql -hlocalhost -uroot -pabcd_2357
 ```sql
 use micro_articulo_bd;
 ```
-* Muestra las tablas para verificar que la tabla artículos existe:
+* Muestra las tablas para verificar que la tabla artículos exista:
 
 ```sql
 show tables;
@@ -45,24 +45,24 @@ select * from artículos;
 ```
 
 
-**Paso 3.** Abre Postman y realiza una solicitud POST al endpoint /api/articulos
+**Paso 3.** Abre Postman y realiza una solicitud POST al endpoint /api/articulos.
 
 * Repite el proceso para agregar varios artículos.
 
 **Paso 4.** Verificar los artículos en la base de datos.
 
-*En la terminal de MySQL, consulta nuevamente la tabla articulos para verificar que los nuevos artículos se hayan ingresado correctamente.
+*En la terminal de MySQL, consulta nuevamente la tabla articulos para verificar que los nuevos artículos se hayan ingresado correctamente:
 
 ```sql
 select * from artículos;
 ```
 
 
-### Tarea 2. Levantar el microservicio: micro-carritof
+### Tarea 2. Levantar el microservicio: micro-carritof.
 
-**Paso 1.** Iniciar el microservicio
+**Paso 1.** Iniciar el microservicio.
 
-**Paso 2.** Agregar varios articulos al carrito usando Postman/Insomia
+**Paso 2.** Agregar varios articulos al carrito usando Postman/Insomia.
 
 **Paso 3.** Verifica la descripción de los articulos en el carrito.
 
