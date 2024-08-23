@@ -4,7 +4,7 @@
 Al finalizar la práctica, serás capaz de:
 - Configurar y gestionar propiedades en una aplicación Spring Boot, utilizando archivos de configuración.
 
-## Objetivo Visual
+## Objetivo Visual:
 
 <div style="text-align: center;">
     <img src="../images/ro4.png" alt="Spring Tool Suite">
@@ -13,7 +13,7 @@ Al finalizar la práctica, serás capaz de:
 ## Duración aproximada:
 - 30 minutos.
 
-## Instrucciones 
+## Instrucciones: 
 
 ### Tarea 1. Configurar propiedades en Spring Boot.
 
@@ -26,20 +26,20 @@ server.port=9999
 
 ### Tarea 2. Desplegar el servicio.
 
-**Paso 1.** Haz clic derecho en la clase principal del proyecto en Spring Boot. Selecciona **Run As** > **Spring Boot App**.
+**Paso 1.** Haz clic derecho en la clase principal del proyecto en Spring Boot. Selecciona **Run As** > **Spring Boot App**:
 
 <div style="text-align: center;">
     <img src="../images/img8_runas.png" alt="Insomia">
 </div>
 
 
-### Tarea 3. Consumir el servicio
+### Tarea 3. Consumir el servicio.
 
 **Paso 1.** Usa Postman o un navegador y consume el servicio, prueba las URIs que hayas implementado en el servicio.
 
 ### Tarea 4. Comentar experiencia adquirida.
 
-**Paso 1.** Comenta la actividad realizada.
+**Paso 1.** Comenta la actividad realizada:
 
 * ¿El proyecto cambiaría si éste se realiza con Gradle en lugar de Maven?
 * ¿Que tendrías que realizar para levantar otra instancia?
@@ -47,7 +47,7 @@ server.port=9999
 
 ### Tarea 5. Trabajar con Logger.
 
-**Paso 1.** Modifica el código para registrar un mensaje con Logger.
+**Paso 1.** Modifica el código para registrar un mensaje con Logger:
 
  * Modifica el archivo `src/main/resources/application.properties`.
  * Añade la variable **participant.name**, con tu nombre.
