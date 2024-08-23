@@ -4,7 +4,7 @@
 Al finalizar la práctica, serás capaz de:
 - Analizar y comprender en detalle la estructura y funcionamiento de una arquitectura monolítica mediante el estudio de un ejemplo.
 
-## Objetivo Visual
+## Objetivo Visual:
 
 <div style="text-align: center;">
     <img src="../images/ro13.png" alt="Spring Tool Suite">
@@ -14,7 +14,7 @@ Al finalizar la práctica, serás capaz de:
 ## Duración aproximada:
 - 30 minutos.
 
-## Instrucciones 
+## Instrucciones: 
 ### Tarea 1. Análisis de la aplicación provista en el curso
 **Paso 1.** Revisa de manera detallada la implementación provista por tu instructor.
 
@@ -44,7 +44,7 @@ b. ¿Cuáles son las ventajas y costos de las aplicaciones n-tier?
 
 **Paso 5.** Accede a la aplicación [Petstore EE 7](http://localhost:8080/applicationPetstore)
 
-### Resultado esperado
+### Resultado esperado:
 
 <p align="center">
   <img src="../images/img15_petstore.png" alt="Petstore" />
