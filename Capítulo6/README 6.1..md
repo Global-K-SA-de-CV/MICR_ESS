@@ -4,7 +4,7 @@
 Al finalizar la práctica, serás capaz de:
 - Definir y estructurar el esquema de la base de datos que soporte el microservicio.
 
-## Objetivo Visual
+## Objetivo Visual:
 
 <div style="text-align: center;">
     <img src="../images/ro9.png" alt="Spring Tool Suite">
@@ -15,20 +15,20 @@ Al finalizar la práctica, serás capaz de:
 - 40 minutos.
 
 
-## Instrucciones 
+## Instrucciones: 
 
-### Tarea 1. Identificación de entidades para los microservicios: micro-articulo & micro-carritof
+### Tarea 1. Identificación de entidades para los microservicios: micro-articulo & micro-carritof.
 
 **Paso 1.** Identificar las entidades clave para los microservicios hasta este momento creados.
 
 
-**Paso 2.** Varificar que puede tener acceso a la base de datos MySQL
+**Paso 2.** Varificar que se puede tener acceso a la base de datos MySQL:
 
 ```cmd
 mysql -uroot -pNetec_2357 -hlocalhost
 ```
 
-**Paso 3.** Crear una base de datos para micro-articulo y otra instancia de base de datos para micro-carrito
+**Paso 3.** Crear una base de datos para micro-articulo y otra instancia de base de datos para micro-carrito:
 
 ```sql
 show databases;
