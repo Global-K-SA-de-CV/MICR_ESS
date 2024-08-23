@@ -5,7 +5,7 @@ Al finalizar la práctica, serás capaz de:
 - Crear y configurar un segundo microservicio que se comunique de manera eficiente con el microservicio de artículos utilizando Feign.
 
 
-## Objetivo Visual
+## Objetivo Visual:
 
 <div style="text-align: center;">
     <img src="../images/ro8.png" alt="Spring Tool Suite">
@@ -16,14 +16,14 @@ Al finalizar la práctica, serás capaz de:
 ## Duración aproximada:
 - 30 minutos.
 
-## Instrucciones 
+## Instrucciones: 
 
-### Tarea 1. Ejecución del micro-carritof
+### Tarea 1. Ejecución del micro-carritof.
 
 
-**Paso 1.** Ejecuta el proyecto micro-carritof
+**Paso 1.** Ejecuta el proyecto micro-carritof.
 
-**Paso 2.** Prueba los endpoints utilizando las herramientas Postman o Curl
+**Paso 2.** Prueba los Endpoints utilizando las herramientas Postman o Curl.
 
 | Método | URI/Endpoints                     | Cuerpo  |
 |--------|----------------------------------|--------|
