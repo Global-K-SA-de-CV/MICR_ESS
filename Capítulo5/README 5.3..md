@@ -30,5 +30,6 @@ Al finalizar la práctica, serás capaz de:
 | POST   | /carrito  | JSON |
 | GET    | /carrito | N/A |
 
- 
-
+ [Inicio](../README.md)<br>
+[Práctica 5.2. Clientes REST declarativos con Feign](../Capítulo5/README 5.2..md)<br>
+[Práctica 6.1. Definición del Esquema de la Base de Datos que Soporte el Microservicio](../Capítulo6/README 6.1..md)<br>
