@@ -6,9 +6,8 @@ Al finalizar la práctica, serás capaz de:
 
 ## Objetivo Visual:
 
-<div style="text-align: center;">
-    ![imagen resultado](../images/ro1.png" alt="Spring Tool Suite"
-</div>
+![imagen resultado](../images/ro1.png" alt="Spring Tool Suite"
+
 
 
 ## Duración aproximada:
