@@ -37,6 +37,6 @@ create database micro_carrito_bd;
 show databases;
 ```
 
- 
-
-
+ [Inicio](../README.md)<br>
+[Práctica 5.3. Pruebas de la Comunicación entre Microservicios](../Capítulo5/README 5.3..md)<br>
+[Practica 6.2. Implementación del Repositorio en el Microservicio](../Capítulo6/README 6.2..md)<br>
