@@ -6,7 +6,7 @@ Al finalizar la práctica, serás capaz de:
 
 ## Objetivo Visual:
 
-![imagen resultado](../images/ro1.png" alt="Spring Tool Suite"
+![imagen resultado](../images/ro1.png)
 
 
 
