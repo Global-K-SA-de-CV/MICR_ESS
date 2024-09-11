@@ -61,4 +61,6 @@ Al finalizar la práctica, serás capaz de:
     <img src="../images/img9_packages.png" alt="Postman">
 </div>
 
-
+[Inicio](../README.md)<br>
+[Práctica 3.4. Configuración de Propiedades en Spring Boot](../Capítulo3/README 3.4..md)<br>
+[Práctica 4.2. Configuración, Implementación, Despliegue y Pruebas del Microservicio](../Capítulo4/README 4.2..md)<br>
