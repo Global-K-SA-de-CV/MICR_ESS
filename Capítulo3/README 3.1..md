@@ -151,3 +151,6 @@ INSERT INTO mi_tabla (id, nombre) VALUES (3, 'Jesús');
 -- Consulta los datos de la tabla
 SELECT * FROM mi_tabla;
 ```
+[Inicio](../README.md)<br>
+[Práctica 2.1. Diseño de Microservicios](../Capítulo2/README.md)<br>
+[Práctica 3.2. Creación de un Proyecto Inicial con Spring Boot](../Capítulo3/README 3.2..md)<br>
