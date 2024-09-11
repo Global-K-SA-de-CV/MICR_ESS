@@ -7,7 +7,7 @@ Al finalizar la práctica, serás capaz de:
 ## Objetivo Visual:
 
 <div style="text-align: center;">
-    <img src="../images/ro6.png" alt="Spring Tool Suite">
+    <img src="./images/ro6.png" alt="Spring Tool Suite">
 </div>
 
 
@@ -100,3 +100,6 @@ mvn spring-boot:run
 
 **Paso 1.** ¿Qué observas sobre los artículos agregados?
 
+[Inicio](../README.md)<br>
+[Práctica 4.1. Creación de un Proyecto con Microservicios](../Capítulo4/README 4.1..md)<br>
+[Práctica 5.1. Creación de un Segundo Microservicio](../Capítulo5/README 5.1..md)<br>
