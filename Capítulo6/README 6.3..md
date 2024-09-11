@@ -39,5 +39,6 @@ spring.datasource.url=jdbc:mysql://<ip_address>:3306/micro_articulo_bd
 spring.datasource.username=root
 spring.datasource.password=Netec_2357
 ```
-
-
+[Inicio](../README.md)<br>
+[Practica 6.2. Implementación del Repositorio en el Microservicio](../Capítulo6/README 6.2..md)<br>
+[Practica 6.4. Pruebas de la Persistencia del Microservicio en la Base de Datos](../Capítulo6/README 6.4..md)<br>
