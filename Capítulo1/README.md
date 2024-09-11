@@ -50,4 +50,4 @@ b. ¿Cuáles son las ventajas y costos de las aplicaciones n-tier?
   <img src="../images/img15_petstore.png" alt="Petstore" />
 </p> <br>
 [Inicio](../README.md)<br>
-[Práctica 3.2. Creación de un Proyecto Inicial con Spring Boot](/Capítulo3/README 3.2..md)
+[Práctica 3.2. Creación de un Proyecto Inicial con Spring Boot](./Capítulo3/README 3.2..md)
