@@ -54,4 +54,5 @@ a. La discusión va determinada por los siguientes cuestionamientos:
   <img src="../images/img18_ms.png" alt="Microservicios" />
 </p>
 [Inicio](../README.md)<br>
+[Práctica 1.1. Revisión de un ejemplo de Arquitectura de un Sistema Monolítico](/Capítulo1/README.md)<br>
 [Práctica 3.1. Configuración del Entorno para Spring Boot](../Capítulo3/README 3.1..md)<br>
