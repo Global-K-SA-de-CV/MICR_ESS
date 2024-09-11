@@ -7,7 +7,7 @@ Al finalizar la práctica, serás capaz de:
 ## Objetivo Visual:
 
 <div style="text-align: center;">
-    <img src="../images/ro1.png" alt="Spring Tool Suite">
+    ![imagen resultado](../images/ro1.png" alt="Spring Tool Suite"
 </div>
 
 
