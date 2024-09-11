@@ -50,4 +50,4 @@ b. ¿Cuáles son las ventajas y costos de las aplicaciones n-tier?
   <img src="../images/img15_petstore.png" alt="Petstore" />
 </p> <br>
 [Inicio](../README.md)<br>
-[Práctica 2.1. Diseño de Microservicios](./Capítulo2/README.md)<br>
+[Práctica 2.1. Diseño de Microservicios](../Capítulo2/README.md)<br>
