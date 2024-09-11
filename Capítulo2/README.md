@@ -53,3 +53,5 @@ a. La discusión va determinada por los siguientes cuestionamientos:
 <p align="center">
   <img src="../images/img18_ms.png" alt="Microservicios" />
 </p>
+[Inicio](../README.md)<br>
+[Práctica 3.1. Configuración del Entorno para Spring Boot](../Capítulo3/README 3.1..md)<br>
