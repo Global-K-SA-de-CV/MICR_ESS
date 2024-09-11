@@ -66,5 +66,5 @@ select * from artículos;
 
 **Paso 3.** Verifica la descripción de los articulos en el carrito.
 
-
-
+[Inicio](../README.md)<br>
+[Practica 6.3. Configuración de la Persistencia](../Capítulo6/README 6.3..md)<br>
