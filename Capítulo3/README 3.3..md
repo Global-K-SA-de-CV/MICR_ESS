@@ -58,3 +58,6 @@ public class ProductoController {
 }
 
 ```
+[Inicio](../README.md)<br>
+[Práctica 3.2. Creación de un Proyecto Inicial con Spring Boot](../Capítulo3/README 3.2..md)<br>
+[Práctica 3.4. Configuración de Propiedades en Spring Boot](../Capítulo3/README 3.4..md)<br>
