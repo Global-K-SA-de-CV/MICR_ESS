@@ -53,5 +53,6 @@ show databases;
     <img src="../images/img14_persistencia.png" alt="Persistencia">
 </div>
 
-
-
+[Inicio](../README.md)<br>
+[Práctica 6.1. Definición del Esquema de la Base de Datos que Soporte el Microservicio](../Capítulo6/README 6.1..md)<br>
+[Practica 6.3. Configuración de la Persistencia](../Capítulo6/README 6.3..md)<br>
