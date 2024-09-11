@@ -90,3 +90,7 @@ public interface IArticuloFeign {
 <div style="text-align: center;">
     <img src="../images/img13_packages.png" alt="Packages Java">
 </div>
+
+[Inicio](../README.md)<br>
+[Práctica 5.1. Creación de un Segundo Microservicio](../Capítulo5/README 5.1..md)<br>
+[Práctica 5.3. Pruebas de la Comunicación entre Microservicios](../Capítulo5/README 5.3..md)<br>
