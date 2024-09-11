@@ -74,7 +74,7 @@ PATH=%PATH%;%MVN_HOME%\bin
 **Paso 1.** Localiza el ícono siguiente e inicia el STS:
 
 <div style="text-align: center;">
-    ![imagen resultado](../images/img3_sts.png)
+    <img src="../images/img3_sts.png)" alt="SpringToolSuite">
 </div>
 
 **Paso 2.** Localiza el ícono siguiente e inicia Postman:
