@@ -70,3 +70,7 @@ server.port=9092
 |-------------|----------|--------|
 | POST        | /carrito |  JSON  |
 | GET         | /carrito |   N/A  |
+
+[Inicio](../README.md)<br>
+[Práctica 4.2. Configuración, Implementación, Despliegue y Pruebas del Microservicio](../Capítulo4/README 4.2..md)<br>
+[Práctica 5.2. Clientes REST declarativos con Feign](../Capítulo5/README 5.2..md)<br>
